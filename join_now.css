@@ -1,0 +1,82 @@
+
+@import 'style.css';
+
+.error-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.error-content {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.error-code {
+    font-size: 8rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.error-message {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.back-to-home {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-home:hover {
+    background-color: #0056b3;
+}
+.student-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.student-form .form-control, .student-form .form-select {
+    border-radius: 0;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+
+.student-form .form-control:focus, .student-form .form-select:focus {
+    border-color: #06BBCC;
+    box-shadow: 0 0 0 0.25rem rgba(6, 187, 204, 0.25);
+}
+
+.student-form .btn-primary {
+    background-color: #06BBCC;
+    border-color: #06BBCC;
+}
+
+.student-form .btn-primary:hover {
+    background-color: #0596a3;
+    border-color: #0596a3;
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+    .student-form {
+        padding: 20px;
+    }
+}

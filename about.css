@@ -1,0 +1,39 @@
+
+@import 'style.css';
+
+/* About Page Specific Styles */
+.about-section {
+    padding: 4rem 0;
+    background-color: #f4f4f4;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-member img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.mission-statement {
+    background-color: #fff;
+    border-left: 4px solid #007bff;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+}
